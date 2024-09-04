@@ -190,3 +190,6 @@ body.dark-mode .portfolio-item {
     text-decoration: none; /* Ensure no decoration on hover */
     color: #0ef; /* Optional: add a hover effect */
 }
+.projetText{
+    margin-bottom: 8px;
+}

@@ -5,9 +5,11 @@ body {
     padding: 0;
     box-sizing: border-box;
     line-height: 1.6;
-    background: #f4f4f4;
+    /* background: #f4f4f4; */
     color: #333;
     /* transition: background 0.3s, color 0.3s; */
+    background-color: #121212;
+
 }
 
 
@@ -177,4 +179,14 @@ body.dark-mode .service,
 body.dark-mode .portfolio-item {
     background: #2c2c2c;
     border: 1px solid #444;
+}
+/* Remove text-decoration from links in sections */
+.section a {
+    text-decoration: none;
+    color: inherit; /* Optional: inherit the color of the parent element */
+}
+
+.section a:hover {
+    text-decoration: none; /* Ensure no decoration on hover */
+    color: #0ef; /* Optional: add a hover effect */
 }

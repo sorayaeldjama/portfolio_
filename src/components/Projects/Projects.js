@@ -37,7 +37,7 @@ function Projects() {
               imgPath={my_restaurant}
               isBlog={false}
               title="My Restaurant"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Notre site de restaurant, créé avec React et Material-UI, offre une expérience utilisateur moderne et fluide. Il est conçu pour afficher notre menu, prendre des réservations et fournir des informations sur notre établissement tout en garantissant une navigation agréable."
               ghLink="https://github.com/sorayaeldjama/mys-restaurant"
               demoLink="https://mys-restaurant-btqx.vercel.app/"
             />

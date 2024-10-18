@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import sharevista from "../../Assets/Projects/sharevista.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import my_restaurant from "../../Assets/Projects/my-restaurant.png";
 
 function Projects() {
   return (

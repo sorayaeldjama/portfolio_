@@ -21,7 +21,7 @@ function Projects() {
         Voici quelques projets sur lesquels j'ai travaillé récemment.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={sharevista}
               isBlog={false}
@@ -41,14 +41,14 @@ function Projects() {
               ghLink="https://github.com/sorayaeldjama/mys-restaurant"
               demoLink="https://mys-restaurant-btqx.vercel.app/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
               title="Lagertha"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description=""
               ghLink="https://github.com/sorayaeldjama/lagertha"
               demoLink=""              
             />

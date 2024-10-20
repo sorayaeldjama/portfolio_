@@ -34,7 +34,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }} // Limite la largeur du bouton
           >
             <AiOutlineDownload /> {/* Icône de téléchargement */}
-            &nbsp;Download CV {/* Texte du bouton */}
+            &nbsp;Telecharger  CV {/* Texte du bouton */}
           </Button>
         </Row>
 
@@ -52,7 +52,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }} // Limite la largeur du bouton
           >
             <AiOutlineDownload /> {/* Icône de téléchargement */}
-            &nbsp;Download CV {/* Texte du bouton */}
+            &nbsp;Telecharger  CV {/* Texte du bouton */}
           </Button>
         </Row>
       </Container>

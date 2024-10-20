@@ -47,9 +47,14 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Lagertha"
-              description=""
-              ghLink="https://github.com/sorayaeldjama/lagertha"
+              title="Lagertha Transfer"
+              description="Pendant mon alternance chez Lagertha.tech, j'ai travaillé comme développeuse front-end sur le projet Lagertha Transfer, une plateforme de partage de fichiers volumineux similaire à WeTransfer.
+
+Conception de l'interface : Développement d'une interface utilisateur moderne et responsive en utilisant Next.js et Material-UI (MUI) pour créer des composants réactifs et ergonomiques.
+Gestion d'état : Utilisation de Redux pour centraliser et gérer l'état global de l'application, notamment pour le suivi des fichiers téléchargés et des sessions utilisateur.
+Hooks React : Implémentation de hooks comme useEffect pour gérer les effets de bord, comme les appels API pour récupérer ou envoyer des données côté front-end. Utilisation de useCallback pour optimiser les performances, notamment en mémorisant certaines fonctions (comme la gestion d'événements ou de formulaires) afin d'éviter des rendus inutiles.
+Expérience utilisateur optimisée : Mise en place de la gestion des erreurs, des notifications visuelles en temps réel pour informer les utilisateurs lors des uploads, et des liens de téléchargement sécurisés."
+              // ghLink="https://github.com/sorayaeldjama/lagertha"
               demoLink=""              
             />
           </Col>

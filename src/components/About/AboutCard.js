@@ -23,9 +23,9 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Jouer à des jeux
             </li>
-            <li className="about-activity">
+            {/* <li className="about-activity">
               <ImPointRight /> Écrire des blogs techniques
-            </li>
+            </li> */}
             <li className="about-activity">
               <ImPointRight /> Voyager
             </li>

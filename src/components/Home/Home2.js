@@ -19,18 +19,16 @@ function AboutMe() {
               LAISSEZ-MOI <span className="purple"> ME PRÉSENTER </span>
             </h1>
             <p className="home-about-body">
-              Passionné par le développement, j'ai acquis une solide expérience en programmation, en particulier dans les technologies front-end telles que 
-              <i>
-                <b className="purple"> React et Angular</b>.
+            Passionnée par le développement, j’ai acquis une solide expérience en programmation full stack, avec une spécialisation marquée dans les technologies 
+           <i><b className="purple"> Java</b></i> pour le back-end et 
+          <i> <b className="purple"> Angular</b></i> pour le front-end.<i>
+               
               </i>
               <br />
-              <br />Je suis également à l'aise avec le développement back-end, notamment en utilisant
-              <i>
-                <b className="purple"> Node.js</b> et <b className="purple">Java</b>.
-              </i>
+              <br />Grâce à ces compétences, je suis capable de concevoir des applications web robustes, performantes et évolutives, en assurant une bonne architecture logicielle côté serveur et une interface utilisateur fluide et moderne côté client.
+          
               <br />
               <br />
-              Mon objectif est de créer des applications modernes et performantes, en mettant l'accent sur l'expérience utilisateur et l'optimisation des performances. Que ce soit dans la conception de composants réactifs ou l'intégration d'API robustes, je m'efforce toujours de fournir des solutions efficaces.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -13,10 +13,17 @@ function AboutCard() {
             J'ai un **Master 2 en conduite de projet informatique** et j'ai enseigné
             pendant 2 ans les langages de programmation au lycée.
             <br />
-            J'ai également un **bachelor en conception et développement web et mobile**,
-            réalisé en alternance dans une entreprise en tant que développeuse front-end.
+            <br/>
+            J’ai également obtenu un Bachelor en conception et développement web et mobile, 
+            réalisé en alternance chez Lagertha, où j’ai travaillé en tant que développeuse front-end (React).
             <br />
             <br />
+            Actuellement, je poursuis un Master 2 en intelligence artificielle et data analysis en alternance chez Perosol, 
+            où j’occupe le poste de développeuse full stack.
+            J’y conçois et développe des applications web en utilisant des technologies
+            modernes et robustes, telles que Spring Boot pour le back-end et Angular pour le front-end.
+            <br/>
+            <br/>
             En dehors de la programmation, voici quelques activités que j'apprécie :
           </p>
           <ul>

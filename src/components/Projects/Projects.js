@@ -61,6 +61,36 @@ function Projects() {
               demoLink=""              
             />
           </Col>
+          {/* Ajoutez cette colonne dans votre Row */}
+<Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={editor} // Vous pouvez mettre une icône de document ou de check
+    isBlog={false}
+    title="Stratégie de Tests & Assurance Qualité"
+    description="Documentation complète de mes plans de test et scénarios de validation. Application des principes ISTQB pour garantir la fiabilité des logiciels : rédaction de cahiers de recette, tests de non-répression et gestion des anomalies."
+    
+    // Si votre fichier est sur GitHub, mettez le lien ici
+    ghLink="https://github.com/sorayaeldjama/portfolio_/blob/main/src/planTest.md" 
+    
+    // Si vous voulez que le bouton "Demo" ouvre directement votre fichier .md
+    // Placez le fichier dans le dossier 'public' de votre projet React
+demoLink="https://github.com/sorayaeldjama/portfolio_/blob/9f1bb1939e6af390128ba80d7a98b90e8419e10d/src/planTest.md"  />
+</Col>
+<Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={editor} // Vous pouvez mettre une icône de document ou de check
+    isBlog={false}
+    title="Stratégie de Tests & Assurance Qualité"
+    description="Documentation complète de mes plans de test et scénarios de validation. Application des principes ISTQB pour garantir la fiabilité des logiciels : rédaction de cahiers de recette, tests de non-répression et gestion des anomalies."
+    
+    // Si votre fichier est sur GitHub, mettez le lien ici
+    ghLink="https://github.com/votre-pseudo/votre-depot-tests" 
+    
+    // Si vous voulez que le bouton "Demo" ouvre directement votre fichier .md
+    // Placez le fichier dans le dossier 'public' de votre projet React
+    demoLink="/plan-de-test.md" 
+  />
+</Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard

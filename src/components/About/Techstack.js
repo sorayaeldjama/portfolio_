@@ -35,6 +35,7 @@ function Techstack() {
        <Col xs={4} md={2} className="tech-icons">
         <  SiAngular />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>

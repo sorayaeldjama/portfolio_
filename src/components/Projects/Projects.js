@@ -66,7 +66,7 @@ function Projects() {
     description="Documentation complète de mes plans de test et scénarios de validation. Application des principes ISTQB pour garantir la fiabilité des logiciels : rédaction de cahiers de recette, tests de non-répression et gestion des anomalies."
     
     // Si votre fichier est sur GitHub, mettez le lien ici
-    ghLink="https://github.com/sorayaeldjama/portfolio_/blob/main/src/planTest.md" 
+    ghLink="https://github.com/sorayaeldjama/saucedemo-strategy-and-automation" 
     
     // Si vous voulez que le bouton "Demo" ouvre directement votre fichier .md
     // Placez le fichier dans le dossier 'public' de votre projet React
@@ -80,7 +80,7 @@ demoLink="https://github.com/sorayaeldjama/portfolio_/blob/9f1bb1939e6af390128ba
     description="Documentation complète de mes plans de test et scénarios de validation. Application des principes ISTQB pour garantir la fiabilité des logiciels : rédaction de cahiers de recette, tests de non-répression et gestion des anomalies."
     
     // Si votre fichier est sur GitHub, mettez le lien ici
-    ghLink="https://github.com/votre-pseudo/votre-depot-tests" 
+    ghLink="https://github.com/sorayaeldjama/saucedemo-strategy-and-automation" 
     
     // Si vous voulez que le bouton "Demo" ouvre directement votre fichier .md
     // Placez le fichier dans le dossier 'public' de votre projet React

@@ -17,13 +17,27 @@ function AboutMe() {
               LAISSEZ-MOI <span className="purple"> ME PRÉSENTER </span>
             </h1>
             <p className="home-about-body">
-            Passionnée par le développement, j’ai acquis une solide expérience en programmation full stack, avec une spécialisation marquée dans les technologies 
-           <i><b className="purple"> Java</b></i> pour le back-end et 
-          <i> <b className="purple"> Angular</b></i> pour le front-end.<i>
+Un bug en production ne coûte pas seulement de l'argent : il entame la confiance des utilisateurs et l'image 
+de marque de l'entreprise. L'Assurance Qualité n'est plus une simple étape de validation, c'est un pilier 
+stratégique indispensable.
+<br />
+<br />
+
+C’est sur le terrain, au fil de mes expériences de développeuse Full Stack (Java/Angular), que j'ai forgé cette 
+conviction. Au-delà de la conception d'architectures robustes, j'ai toujours eu à cœur de sécuriser chaque 
+livraison : mise en place de tests unitaires, diagnostic approfondi d'anomalies (support N2/N3) et anticipation 
+des régressions. Cette exigence de fiabilité s'est naturellement transformée en une véritable passion pour la
+ Qualité Logicielle.
+ <br />
+<br />
+Aujourd’hui certifiée ISTQB, j'évolue pleinement en tant qu'Analyste Test / Testeuse QA. Mon atout majeur ? 
+Je parle le langage des développeurs. Je mets ma double casquette — l'esprit critique de la QA allié à la 
+compréhension profonde du code et de l'automatisation (notamment avec des outils modernes comme Playwright)   
+          <i> <b className="purple"> Playright</b></i> <i> — au 
+service des équipes produit pour garantir des applications performantes, maintenables et irréprochables.
                
               </i>
               <br />
-              <br />Grâce à ces compétences, je suis capable de concevoir des applications web robustes, performantes et évolutives, en assurant une bonne architecture logicielle côté serveur et une interface utilisateur fluide et moderne côté client.
           
               <br />
               <br />

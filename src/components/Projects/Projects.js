@@ -14,81 +14,21 @@ function Projects() {
           Mes récentes <strong className="purple">réalisations </strong>
         </h1>
         <p style={{ color: "white" }}>
-        Voici quelques projets sur lesquels j'ai travaillé récemment.
+          Voici quelques projets sur lesquels j'ai travaillé récemment.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
+          
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sharevista}
+              imgPath={editor}
               isBlog={false}
-              title="Share Vista"
-              description="ShareVista est un réseau social interactif conçu pour partager des ressources et interagir avec des amis. Développé avec React.js, Material-UI, Node.js et MySQL, il permet aux utilisateurs de publier des contenus, de réagir aux publications et de collaborer facilement dans un espace convivial. Un outil idéal pour se connecter, partager et échanger des idées dans une atmosphère détendue."
-              ghLink="https://github.com/sorayaeldjama/cda_social_media_front_end"
-              demoLink="https://cda-social-media-front-end.vercel.app/login"
+              title="Stratégie de Tests & Automatisation E2E"
+              description="Documentation complète des plans de tests et scénarios de validation. Application des bonnes pratiques ISTQB pour garantir la qualité logicielle : rédaction de cahiers de recette, gestion du cycle de vie des anomalies et automatisation des parcours critiques de bout en bout avec Playwright sur la plateforme SauceDemo."
+              ghLink="https://github.com/sorayaeldjama/saucedemo-strategy-and-automation" 
+              demoLink="/plan-de-test.md" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={my_restaurant}
-              isBlog={false}
-              title="My Restaurant"
-              description="Notre site de restaurant, créé avec React et Material-UI, offre une expérience utilisateur moderne et fluide. Il est conçu pour afficher notre menu, prendre des réservations et fournir des informations sur notre établissement tout en garantissant une navigation agréable."
-              ghLink="https://github.com/sorayaeldjama/mys-restaurant"
-              demoLink="https://mys-restaurant-btqx.vercel.app/"
-            />
-          </Col> */}
-
-          {/* Ajoutez cette colonne dans votre Row */}
-
-<Col md={4} className="project-card">
-  <ProjectCard
-    imgPath={editor} // Vous pouvez mettre une icône de document ou de check
-    isBlog={false}
-    title="Stratégie de Tests & Assurance Qualité"
-    description="Documentation complète des plans de tests et scénarios de validation. Application des bonnes pratiques ISTQB pour garantir la qualité logicielle : rédaction de cahiers de recette, exécution de tests de non-régression et gestion du cycle de vie des anomalies sur la plateforme SauceDemo."
-    // Si votre fichier est sur GitHub, mettez le lien ici
-    ghLink="https://github.com/sorayaeldjama/saucedemo-strategy-and-automation" 
-    
-    // Si vous voulez que le bouton "Demo" ouvre directement votre fichier .md
-    // Placez le fichier dans le dossier 'public' de votre projet React
-    demoLink="/plan-de-test.md" 
-  />
-</Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>

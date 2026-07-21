@@ -22,10 +22,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Stratégie de Tests & Automatisation E2E"
+              title="Qualification E-commerce & Automatisation Playwright"
               description="Documentation complète des plans de tests et scénarios de validation. Application des bonnes pratiques ISTQB pour garantir la qualité logicielle : rédaction de cahiers de recette, gestion du cycle de vie des anomalies et automatisation des parcours critiques de bout en bout avec Playwright sur la plateforme SauceDemo."
               ghLink="https://github.com/sorayaeldjama/saucedemo-strategy-and-automation" 
-              demoTitle="Voir le Plan de Test"
+              demoTitle="Consulter les Livrables QA"
             />
           </Col>
 

@@ -7,38 +7,41 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          {/* Utilisation d'une div globale pour le texte justifié et de balises <p> pour espacer les idées proprement */}
           <div style={{ textAlign: "justify" }}>
             <p>
               Bonjour à tous, je suis <span className="purple">Soraya El Djama</span>.
             </p>
             
             <p>
-              Titulaire d'un <strong>Master 2 en Conduite de projets informatiques</strong>, j'ai d'abord partagé ma passion en enseignant la programmation au lycée pendant deux ans.
+              Un bug en production ne coûte pas seulement de l'argent : il entame la confiance des utilisateurs et l'image de marque de l'entreprise. L'Assurance Qualité n'est plus une simple étape de validation de fin de chaîne, c'est un véritable pilier stratégique.
             </p>
             
             <p>
-              J’ai ensuite consolidé mes compétences techniques avec un Bachelor en Conception et Développement Web et Mobile, réalisé en alternance chez Lagertha.tech, où j’ai évolué en tant que développeuse Front-End (React).
+              C’est sur le terrain que j'ai forgé cette conviction. Mon solide bagage technique, construit sur 3 années d'expérience en développement et tests (Java, Angular) et 2 années dans l'enseignement, m'a donné les clés pour comprendre les rouages internes des applications. J'y ai cultivé une exigence de fiabilité absolue en concevant des architectures robustes et en anticipant les failles structurelles.
             </p>
             
             <p>
-              Actuellement, je poursuis un Master 2 (Développement, Data et IA) en alternance chez Prosol, où j’occupe le poste de développeuse Full Stack. J’y conçois et développe des applications web en utilisant des technologies modernes et robustes, telles que Spring Boot pour le back-end et Angular pour le front-end.
+              Aujourd’hui, en tant que <strong>Testeuse QA expérimentée</strong> (certification ISTQB en cours), j'accompagne les projets de bout en bout avec une vision qualité à 360°. Ayant mené à bien plus de 6 projets critiques, j'allie la rigueur et l'esprit critique de la QA à une maîtrise pointue de l'automatisation (Selenium, Playwright, JUnit).
             </p>
             
             <p>
-              En dehors du code, voici quelques activités qui m'animent au quotidien :
+              Mon profil hybride est mon atout majeur : je parle couramment le langage des développeurs. Cela me permet de documenter efficacement les processus, de diagnostiquer les bugs complexes et de fluidifier la communication technique au sein de l'entreprise.
+            </p>
+
+            <p>
+              Mes domaines d'expertise couvrent notamment :
             </p>
           </div>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Les jeux vidéo (Call of Duty, jeux de stratégie)
+              <ImPointRight /> L'automatisation E2E et les tests API (Playwright, Postman, JUnit)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Le sport (musculation, cyclisme, course à pied)
+              <ImPointRight /> Les tests de conformité et de recette applicative (Environnements Web et SAP)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Les voyages
+              <ImPointRight /> La gestion du cycle de vie des anomalies (Jira, Xray)
             </li>
           </ul>
 

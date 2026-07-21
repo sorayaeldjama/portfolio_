@@ -7,41 +7,45 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            BONJOUR À TOUS, je suis <span className="purple">El Djama Soraya</span>.
-            <br />
-            J'ai un **Master 2 en conduite de projet informatique** et j'ai enseigné
-            pendant 2 ans les langages de programmation au lycée.
-            <br />
-            <br/>
-            J’ai également obtenu un Bachelor en conception et développement web et mobile, 
-            réalisé en alternance chez Lagertha, où j’ai travaillé en tant que développeuse front-end (React).
-            <br />
-            <br />
-            Actuellement, je poursuis un Master 2 en intelligence artificielle et data analysis en alternance chez Perosol, 
-            où j’occupe le poste de développeuse full stack.
-            J’y conçois et développe des applications web en utilisant des technologies
-            modernes et robustes, telles que Spring Boot pour le back-end et Angular pour le front-end.
-            <br/>
-            <br/>
-            En dehors de la programmation, voici quelques activités que j'apprécie :
-          </p>
+          {/* Utilisation d'une div globale pour le texte justifié et de balises <p> pour espacer les idées proprement */}
+          <div style={{ textAlign: "justify" }}>
+            <p>
+              Bonjour à tous, je suis <span className="purple">Soraya El Djama</span>.
+            </p>
+            
+            <p>
+              Titulaire d'un <strong>Master 2 en Conduite de projets informatiques</strong>, j'ai d'abord partagé ma passion en enseignant la programmation au lycée pendant deux ans.
+            </p>
+            
+            <p>
+              J’ai ensuite consolidé mes compétences techniques avec un Bachelor en Conception et Développement Web et Mobile, réalisé en alternance chez Lagertha.tech, où j’ai évolué en tant que développeuse Front-End (React).
+            </p>
+            
+            <p>
+              Actuellement, je poursuis un Master 2 (Développement, Data et IA) en alternance chez Prosol, où j’occupe le poste de développeuse Full Stack. J’y conçois et développe des applications web en utilisant des technologies modernes et robustes, telles que Spring Boot pour le back-end et Angular pour le front-end.
+            </p>
+            
+            <p>
+              En dehors du code, voici quelques activités qui m'animent au quotidien :
+            </p>
+          </div>
+
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Jouer à des jeux
+              <ImPointRight /> Les jeux vidéo (Call of Duty, jeux de stratégie)
             </li>
-            {/* <li className="about-activity">
-              <ImPointRight /> Écrire des blogs techniques
-            </li> */}
             <li className="about-activity">
-              <ImPointRight /> Voyager
+              <ImPointRight /> Le sport (musculation, cyclisme, course à pied)
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Les voyages
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(155 126 172)", marginTop: "1.5rem" }}>
             "Aspirez à créer des choses qui font la différence !"{" "}
           </p>
-          <footer className="blockquote-footer">El Djama Soraya</footer>
+          <footer className="blockquote-footer">Soraya El Djama</footer>
         </blockquote>
       </Card.Body>
     </Card>

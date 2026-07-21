@@ -25,7 +25,7 @@ function Projects() {
               title="Stratégie de Tests & Automatisation E2E"
               description="Documentation complète des plans de tests et scénarios de validation. Application des bonnes pratiques ISTQB pour garantir la qualité logicielle : rédaction de cahiers de recette, gestion du cycle de vie des anomalies et automatisation des parcours critiques de bout en bout avec Playwright sur la plateforme SauceDemo."
               ghLink="https://github.com/sorayaeldjama/saucedemo-strategy-and-automation" 
-              demoLink="/plan-de-test.md" 
+              demoTitle="Voir le Plan de Test"
             />
           </Col>
 

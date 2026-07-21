@@ -39,46 +39,14 @@ function Projects() {
             />
           </Col> */}
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Lagertha Transfer"
-              description={<div
-                dangerouslySetInnerHTML={{
-                  __html: `Pendant mon alternance chez Lagertha.tech, j'ai travaillé comme développeuse front-end sur le projet Lagertha Transfer, une plateforme de partage de fichiers volumineux similaire à WeTransfer.<br><br>
-                  -- Conception de l'interface : Développement d'une interface utilisateur moderne et responsive en utilisant Next.js et Material-UI (MUI) pour créer des composants réactifs et ergonomiques.<br><br>
-                  -- Gestion d'état : Utilisation de Redux pour centraliser et gérer l'état global de l'application, notamment pour le suivi des fichiers téléchargés et des sessions utilisateur.<br><br>
-                  -- Hooks React : Implémentation de hooks comme useEffect pour gérer les effets de bord, comme les appels API pour récupérer ou envoyer des données côté front-end. Utilisation de useCallback pour optimiser les performances, notamment en mémorisant certaines fonctions (comme la gestion d'événements ou de formulaires) afin d'éviter des rendus inutiles.<br><br>
-                  -- Expérience utilisateur optimisée : Mise en place de la gestion des erreurs, des notifications visuelles en temps réel pour informer les utilisateurs lors des uploads, et des liens de téléchargement sécurisés.`
-                }}
-              />}
-              // ghLink="https://github.com/sorayaeldjama/lagertha"
-              demoLink=""              
-            />
-          </Col>
           {/* Ajoutez cette colonne dans votre Row */}
+
 <Col md={4} className="project-card">
   <ProjectCard
     imgPath={editor} // Vous pouvez mettre une icône de document ou de check
     isBlog={false}
     title="Stratégie de Tests & Assurance Qualité"
-    description="Documentation complète de mes plans de test et scénarios de validation. Application des principes ISTQB pour garantir la fiabilité des logiciels : rédaction de cahiers de recette, tests de non-répression et gestion des anomalies."
-    
-    // Si votre fichier est sur GitHub, mettez le lien ici
-    ghLink="https://github.com/sorayaeldjama/saucedemo-strategy-and-automation" 
-    
-    // Si vous voulez que le bouton "Demo" ouvre directement votre fichier .md
-    // Placez le fichier dans le dossier 'public' de votre projet React
-demoLink="https://github.com/sorayaeldjama/portfolio_/blob/9f1bb1939e6af390128ba80d7a98b90e8419e10d/src/planTest.md"  />
-</Col>
-<Col md={4} className="project-card">
-  <ProjectCard
-    imgPath={editor} // Vous pouvez mettre une icône de document ou de check
-    isBlog={false}
-    title="Stratégie de Tests & Assurance Qualité"
-    description="Documentation complète de mes plans de test et scénarios de validation. Application des principes ISTQB pour garantir la fiabilité des logiciels : rédaction de cahiers de recette, tests de non-répression et gestion des anomalies."
-    
+    description="Documentation complète des plans de tests et scénarios de validation. Application des bonnes pratiques ISTQB pour garantir la qualité logicielle : rédaction de cahiers de recette, exécution de tests de non-régression et gestion du cycle de vie des anomalies sur la plateforme SauceDemo."
     // Si votre fichier est sur GitHub, mettez le lien ici
     ghLink="https://github.com/sorayaeldjama/saucedemo-strategy-and-automation" 
     
